@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{0afe1f4c-a089-43f2-9880-9653e3e32383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext">
+      <UniqueIdentifier>{68ac1930-7cbf-408a-97bd-650bca509cb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{9598472a-f3af-468e-b477-a16a6fc8fb2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glsl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\glew.h">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\glxew.h">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\wglew.h">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="Bmp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ext\glew.cpp">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="Bmp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\shader\frag.txt">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\shader\vs.txt">
+      <Filter>shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
